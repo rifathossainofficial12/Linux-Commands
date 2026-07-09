@@ -1,9 +1,6 @@
 # Linux-Commands
 Linux basic and advance command for learning and practicing linux.
 
-# Linux commands cheat sheet
-a beginner- firendly Linux Commands cheat sheet for system administration, networking. and ethical hacking.
-
 ---
 
 #Table of contents
