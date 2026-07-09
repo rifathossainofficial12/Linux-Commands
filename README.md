@@ -10,17 +10,17 @@ a beginner- firendly Linux Commands cheat sheet for system administration, netwo
 
 | No | Topic |
 
-| 1 | [Navigation and File Management](#-Navigation-and-File-Management) |
+| 1 | [Navigation and File Management](#Navigation-and-File-Management) |
 
-| 2 | [User and Permission Management](#-User-and-Permission-Management) |
+| 2 | [User and Permission Management](#User-and-Permission-Management) |
 
 | 3 | [Networking Commands](#Networking-commands) |
 
-| 4 | [File Search and Manipulation](#-File-Search-and-Manipulation) |
+| 4 | [File Search and Manipulation](#File-Search-and-Manipulation) |
 
-| 5 | [Privilege Escalation and Enumeration](#-Privilege-Escalation-and-Enumeration) |
+| 5 | [Privilege Escalation and Enumeration](#Privilege-Escalation-and-Enumeration) |
 
-| 6 | [Tool Usage and Exploitation](#-Tool-Usage-and-Exploitation) |
+| 6 | [Tool Usage and Exploitation](#Tool-Usage-and-Exploitation) |
 
 ---
 
