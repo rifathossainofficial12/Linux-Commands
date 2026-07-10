@@ -1,31 +1,27 @@
 # Linux-Commands
 Linux basic and advanced command for learning and practicing linux.
 
+Written by Mohammad Rifat Hossain.
+
 ---
 
-#Table of contents
+# Table of contents
 
 | No | Topic |
-
+|------|-------|
 | 1 | [Package Management](#Package-Management)|
-
 | 2 | [Navigation and File Management](#Navigation-and-File-Management) |
-
 | 3 | [User and Permission Management](#User-and-Permission-Management) |
-
 | 4 | [Networking Commands](#Networking-commands) |
-
 | 5 | [File Search and Manipulation](#File-Search-and-Manipulation) |
-
 | 6 | [Zip and Unzip File Management](#Zip-and-Unzip-File-Management) | 
-
 | 7 | [Privilege Escalation and Enumeration](#Privilege-Escalation-and-Enumeration) |
-
 | 8 | [Tool Usage and Exploitation](#Tool-Usage-and-Exploitation) |
-
 | 9 | [Installing Package](#Installing-Packages)|
 
+
 ---
+
 
 # Package Management
 
@@ -35,7 +31,9 @@ Linux basic and advanced command for learning and practicing linux.
 |`sudo apt upgrade`| use this command to upgrade the installed package into the new version.| Ex: `sudo apt upgrade` |
 |`sudo apt update && sudo apt upgrade`|  use this command to run two commands at one time. | Ex: `sudo apt update && sudo apt upgrade` |
 
+
 ---
+
 
 # Navigattion and File Management
 
@@ -58,7 +56,9 @@ Linux basic and advanced command for learning and practicing linux.
 |`rmdir`| This command is used to remove empty directories. | Ex : `rmdir newfolder` |
 |`tree`| use this command to see folder structure like tree, | Ex : `tree hlw.txt` |
 
+
 ---
+
 
 # User and Permission Management
 
@@ -70,7 +70,9 @@ Linux basic and advanced command for learning and practicing linux.
 |`chmod`| This command is used for changing file or directory permissions. | Ex: `chmod 755 script.sh` |
 |`passwd`| Use this command to change the current user's password. | Ex: `passwd user` |
 
+
 ---
+
 
 # Networking Commands
 
@@ -86,8 +88,10 @@ Linux basic and advanced command for learning and practicing linux.
 |`traceroute`| use this command for trace network path. | Ex: `traceroute google.com` |
 |`nslookup`| use this command to see the ip address of the domain. | |Ex: `nslookup google.com` |
 |`dig`| use this command to see the DNS information. | Ex: `dig google.com` |
+
  
 ---
+
 
 # File Search and Manipulation
 
@@ -103,7 +107,9 @@ Linux basic and advanced command for learning and practicing linux.
 |`unzip -l note.zip`| use this command to see zip file content without doing unzip. | Ex: `unzip -l note.zip` |
 |`unzip secret.zip`| use this command to unzip a secure file with a real zip file password.  | Ex: `unzip secret.zip` |
 
+
 ---
+
 
 # Zip and Unzip File Management
 
@@ -117,6 +123,7 @@ Linux basic and advanced command for learning and practicing linux.
 
 ---
 
+
 # Privilege Escalation and Enumeration
 
 | Command | Description | Example |
@@ -128,7 +135,9 @@ Linux basic and advanced command for learning and practicing linux.
 |`env`| use this command to see environment variables. | Ex: `env` |
 |`mount`| use this command to see the Mounted Filesystem.  | Ex: `mount` |
 
+
 ---
+
 
 # Tool usage and exploitation
 
@@ -143,7 +152,9 @@ Linux basic and advanced command for learning and practicing linux.
 |`burpsuite`| Web Application Testing Platform (graphical user interface). | Ex: `burpsuite` |
 |`drib / gobuster`| directory bruteforcing. | Ex: `gobuster dir -u http://terget -w wordlist.txt` |
 
+
 ---
+
 
 # Installing packages. 
 
@@ -154,4 +165,6 @@ Linux basic and advanced command for learning and practicing linux.
 |`yum remove package-name`|  use this command to uninstall the installed package. | Ex: `yum remove nmap` |
 
 
+
+#Note: Thanks me letter if this repository is helpful for you.
 
