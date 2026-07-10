@@ -9,17 +9,21 @@ Linux basic and advance command for learning and practicing linux.
 
 | 1 | [Package Management](#Package-Management)|
 
-| 1 | [Navigation and File Management](#Navigation-and-File-Management) |
+| 2 | [Navigation and File Management](#Navigation-and-File-Management) |
 
-| 2 | [User and Permission Management](#User-and-Permission-Management) |
+| 3 | [User and Permission Management](#User-and-Permission-Management) |
 
-| 3 | [Networking Commands](#Networking-commands) |
+| 4 | [Networking Commands](#Networking-commands) |
 
-| 4 | [File Search and Manipulation](#File-Search-and-Manipulation) |
+| 5 | [File Search and Manipulation](#File-Search-and-Manipulation) |
 
-| 5 | [Privilege Escalation and Enumeration](#Privilege-Escalation-and-Enumeration) |
+| 6 | [Zip and Unzip File Management](#Zip-and-Unzip-File-Management) | 
 
-| 6 | [Tool Usage and Exploitation](#Tool-Usage-and-Exploitation) |
+| 7 | [Privilege Escalation and Enumeration](#Privilege-Escalation-and-Enumeration) |
+
+| 8 | [Tool Usage and Exploitation](#Tool-Usage-and-Exploitation) |
+
+| 9 | [Installing Package](#Installing-Packages)|
 
 ---
 
@@ -95,6 +99,21 @@ Linux basic and advance command for learning and practicing linux.
 |`stat`| use this command to see detailed information of files. | Ex: stat file.txt |
 |`file`| use this command to see file type. | Ex: file hlw.txt |
 |`history`| use this command to see command history. | Ex: history | grep nmap |
+|`unzip note.zip`| use this command to unzip any zip file or folder. | Ex: unzip note.zip |
+|`unzip -l note.zip`| use this command to see zip file content without doing unzip. | Ex: unzip -l note.zip |
+|`unzip secret.zip`| use this command to unzip a secure file with a real zip file password.  | Ex: unzip secret.zip |
+
+---
+
+# Zip and Unzip File Management
+
+| Command | Description | Example |
+|------------|----------|----------|
+|`zip note.zip`|  use this command to zip any file | Ex: zip note.zip note.txt |
+|`zip note.zip`| Use this command as shown in the example below to convert multiple files into a zip file. | Ex: zip note.zip file1.txt file2.txt file 3.txt |
+|`zip -r myfolder.zip myfolder`| use this command for zip any directory | Ex: zip -r myfolder.zip myfolder |  
+|`zip  -e secret.zip file.txt`| use this command to make a secure zip file with password. | Ex: zip -e secret.zip file.txt |
+
 
 ---
 
@@ -123,3 +142,14 @@ Linux basic and advance command for learning and practicing linux.
 |`wireshark`| packet sniffer (graphical user interface) | Ex: wireshark |
 |`burpsuite`| Web Application Testing Platform (graphical user interface). | Ex: burpsuite |
 |`drib / gobuster`| directory bruteforcing. | Ex: gobuster dir -u http://terget -w wordlist.txt |
+
+
+# Installing packages. 
+
+|`yum install package-name`| use this command to install packages in linux. | Ex: yum install nmap |
+|`yum info package-name`| use this command to gain information about the package. | Ex: yum info nmap |
+|`yum remove package-name`|  use this command to uninstall the installed package. | Ex: yum remove nmap |
+
+
+
+
